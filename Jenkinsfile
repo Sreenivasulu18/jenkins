@@ -32,7 +32,7 @@ pipeline {
 
                         echo "Hello ${params.PERSON}"
                         echo "Biography: ${params.BIOGRAPHY}"
-                        echo "Toggle: ${params.DEPLOY}"
+                        echo "Deploy: ${params.DEPLOY}"
                         echo "Choice: ${params.CHOICE}"
                         echo "Password: ${params.PASSWORD}"
                     """
